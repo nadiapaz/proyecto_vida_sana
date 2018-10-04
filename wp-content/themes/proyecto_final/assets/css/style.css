@@ -1,0 +1,292 @@
+
+/*tipo de letra*/
+@font-face{
+font-family: "Oxygen-Bold";
+src: url("../vendor/fonts/Oxygen-Bold.ttf"); 
+}
+
+@font-face{
+font-family: "Oxygen-Light";
+src: url("../vendor/fonts/Oxygen-Light.ttf");
+}
+
+@font-face{
+font-family: "Oxygen-Regular";
+src: url("../vendor/fonts/Oxygen-Regular.ttf");
+}
+
+/*body*/
+
+body{
+}
+
+/* nav*/
+
+.navbar__logo__zumba{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+ul li{
+	font-size: 1em;
+	margin: 0.1em;
+	padding: 0.3em;
+	background-color: white;
+	border-radius: 2em;
+	list-style: none;
+}
+
+/*todos los titulos*/
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:700;
+	text-align: center;
+	margin: 25px;
+	font-size: 50px;
+	font-family: 'Oxygen-Bold', sans-serif;
+}
+
+
+.header{
+	width: 88rem;
+ 	margin-top: 10px; 
+ 	border: 10px; 
+ 	border-style: solid; color:black; 
+ 	border-radius: 20px;
+ 	margin-left: 10%;
+}
+
+.header_img{
+	margin: 1em;
+	margin-left: 2em;
+	border-radius: 2em;
+	border-width: 4px;
+}
+
+.header_horarios{
+	margin-left: 20em;
+}
+
+.card-title{
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+	padding: 15px;
+}
+
+/* blog*/
+.blog_alimentacion{
+	color: white;
+	display: inline-block;
+}
+.blog_aire{
+	color: white;
+	display: inline-block;
+}
+.blog_ejercita{
+	color: white;
+	display: inline-block;
+	padding: 15px;
+
+}
+
+.card{
+	border-color:#338eb2;
+	border-radius:1em;
+	border-width:4px;
+	border-style:solid; color:black; 
+	margin: ;
+	color:black;
+}
+
+.section1{
+	margin: 20px 30px 20px 30px;
+
+}
+
+.card-img-top{
+	margin-left: 40%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.card-text{
+	background-color: white;
+}
+
+.alimentacion{
+	margin-left: 15px;
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+}
+
+.aire{
+	margin-left:50px;
+	padding: 15px;
+	width:100%;
+	height:100%;
+
+}
+
+/* features*/
+
+.row{
+	background-color:#338eb2;
+	border-radius:1em;
+	border-width:1em;
+}
+
+.features__img{
+
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+}
+.activo{
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+	padding: 15px;
+
+}
+
+.features_imc{
+	color: white;
+	background-color: black;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* footer*/
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.footer_p{
+	text-align: center;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+/*delegación de eventos*/
+
+.highlighted{
+	background-color: #338eb2;
+}
+
+#example{
+	background-color: #fcf9f9;
+}
+
+button{
+	background-color: #85bbfc;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 5px;
+	width: 100px;
+	margin: 35px auto;
+}
+
+/*Página imagenes*/
+
+.img-fluid{
+	
+	margin: 4px;
+	padding: 4px;
+	border-color:;
+	border-radius: 20px;
+	border-width: 0.2em;
+	margin: 7px;
+	color: black;
+}
+
+#carouselExampleFade{
+	width: 100%;
+}
+
+.clase{
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: gray; 
+}
+
+/*Uso de media Querys*/
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+	body{
+ 	background-color: #acf7f9;
+ }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+	body{
+ 	background-color: #a7f7f9;
+ }
+
+}
+@media screen and (max-width: 480px) {
+	body{
+ 	background-color:#caf8f9;
+ }
+
+/*página videos*/
+
+.container video{
+	margin-top: 2em;
+}
+/*pagina contactos*/
+
+.container ul li{
+	margin: 10px;
+	display: inline-block;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+}
+
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+}
+
+/*pagina experiencias*/
+.rounded-circle{
+	margin: 4px;
+	padding: 4px;
+	border-color:#ffbf00;
+	border-radius:20px;
+	border-width:0.2em;
+	border-style:solid; color:black; 
+	margin: 7px;
+	color:black;
+}
