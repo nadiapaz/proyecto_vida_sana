@@ -19,7 +19,7 @@ Publicacion de imágenes de las clases de zumba además de videos de las clases 
 
 Tambien tips saludables en relación a:
 
-- Alimemtación.
+- Alimentación.
 - Ejercicios para practicar en casa.
 - Calidad del aire.
 - Información (siempre actulizada) respecto de la modificación o suspensión de las actividades.
@@ -80,5 +80,7 @@ tipografía:
 A continuación dejo el link de mi página subida a Youtube
 
 https://www.youtube.com/watch?v=Bd8e4RCcAPE
+
+
 
 
